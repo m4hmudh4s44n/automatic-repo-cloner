@@ -1,4 +1,4 @@
-# GitHub Repo Copier
+# GitHub Automatic Repo Cloner
 
 A simple Python automation script that lets you copy (clone) any public GitHub repository, remove its original history, and prepare it for upload to your own GitHub account.
 
