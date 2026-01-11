@@ -26,7 +26,8 @@ This tool helps you:
 
 ## 📌 Requirements
 
-- Python 3.x  
+- Must have to do this on your **git bash**
+- Python 3.x
 - Git installed  
 - Internet connection  
 - GitHub account  
