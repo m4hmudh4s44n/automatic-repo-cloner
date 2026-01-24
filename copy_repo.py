@@ -36,8 +36,8 @@ new_repo_name = input("Enter NEW repo name (no spaces, no special chars): ").str
 new_repo_url = f"https://github.com/{github_user}/{new_repo_name}.git"
 
 print("\n============================")
-print("⚠️ IMPORTANT: Create a new EMPTY repo on GitHub:")
-print(f"➡️  {new_repo_url}")
+print("IMPORTANT: Create a new EMPTY repo on GitHub:")
+print(f" {new_repo_url}")
 print("Do NOT add README, LICENSE, or .gitignore.")
 print("============================\n")
 
@@ -49,5 +49,5 @@ run(f"git remote add origin {new_repo_url}")
 run("git branch -M main")
 run("git push -u origin main")
 
-print("\n🎉 Done! Your project has been copied to your GitHub.")
+print("\n Done! Your project has been copied to your GitHub.")
 
